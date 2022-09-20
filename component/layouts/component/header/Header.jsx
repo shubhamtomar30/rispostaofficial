@@ -3,14 +3,11 @@ import React, { useState } from 'react';
 
 import { useRouter } from 'next/router';
 
-
 export default function Header() {
-    const router = useRouter();
+     const router = useRouter();
      var route = router.pathname;
 
-     const [mobnav , setmobnav] = useState(false);
-
-     
+     const [mobnav, setmobnav] = useState(false);
 
      return (
           <>
@@ -18,11 +15,15 @@ export default function Header() {
                     <header id='header' className='d-flex align-items-center'>
                          <div className='container d-flex align-items-center justify-content-between'>
                               <h1 className='logo'>
-                                   <a href={'/'}>
-                                        <img src='./assets/img/risposta-logo.png' alt='' />
+                                   <a href='index.html'>
+                                        BizLand<span>.</span>
                                    </a>
                               </h1>
-                             
+
+                              <a href='index.html' className='logo'>
+                                   <img src='assets/img/logo.png' alt='' />
+                              </a>
+
                               <nav id='navbar' className='navbar'>
                                    {/* <header id='header' className='d-flex align-items-center'>
                          <div className='container-fluid d-flex align-items-center justify-content-between'>
