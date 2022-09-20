@@ -40,26 +40,8 @@ a {
 }
 @media (max-width: 991px) {
   
-header {
-    color: white;
-    /* background: black; */
-    /* max-width: 200px; */
-    width: device-width !important;
-zoom: 1.7 !important;
-min-zoom: 0.4 !important;
-max-zoom: 2 !important;
-user-zoom: fixed !important
-  }
-footer {
-    color: white;
-    /* background: black; */
-    /* max-width: 200px; */
-    width: device-width !important;
-zoom: 1.7 !important;
-min-zoom: 0.4 !important;
-max-zoom: 2 !important;
-user-zoom: fixed !important
-  }
+
+
  icon-box{
     color: white;
     /* background: black; */
