@@ -42,21 +42,5 @@ a {
   
 
 
- icon-box{
-    color: white;
-    /* background: black; */
-    /* max-width: 200px; */
-    width: device-width !important;
-zoom: 1.7 !important;
-min-zoom: 0.4 !important;
-max-zoom: 2 !important;
-user-zoom: fixed !important
-  }
-  body>*:not(section){
-    font-size: 32px !important;
-    zoom: 1.2 !important;
-min-zoom: 0.4 !important;
-max-zoom: 2 !important;
-user-zoom: fixed !important
-  }
+
 }
