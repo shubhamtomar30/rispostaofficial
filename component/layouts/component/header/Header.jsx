@@ -98,7 +98,7 @@ export default function Header() {
                                    </ul>
                                    <i className='bi bi-list mobile-nav-toggle'></i>
                               </nav>
-                              <nav id='navbar' className={` navbar ${mobnav === true ? 'navbar-mobile' : ''}`}>
+                              <nav id='navbar' className={`mobnavbar navbar ${mobnav === true ? 'navbar-mobile' : ''}`}>
                                    <ul>
                                         <li>
                                              <Link className='nav-link' href={'/'}>
@@ -226,10 +226,10 @@ export default function Header() {
                                         }}
                                    ></i>
                               </nav>
-                              ;
+                              
                          </div>
                     </header>
-                    ;
+                    
                </div>
           </>
      );
