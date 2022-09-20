@@ -123,7 +123,7 @@
           this.classList.toggle('bi-x');
      });
 
-     on('click' , '#mobilenav' , function(){
+     on('click' , 'nav a' , function(){
           // e.preventDefault();   
           console.log("shubhtomar")
           // select('#navbar').classList.toggle('navbar-mobile');

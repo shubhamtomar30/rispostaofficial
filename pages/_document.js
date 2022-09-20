@@ -5,8 +5,7 @@ export default function Document() {
           <Html>
                <Head>
                     <meta charset="utf-8" />
-                    {/* <meta name='color-scheme' content='light only'></meta> */}
-                    {/* <meta name='viewport' content='width=device-width, initial-scale=1.0' /> */}
+                  
                     
                    
 
@@ -16,8 +15,7 @@ export default function Document() {
                     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossOrigin="anonymous" />
                     <link href='assets/vendor/bootstrap-icons/bootstrap-icons.css' rel='stylesheet' />
                     <link href='assets/vendor/boxicons/css/boxicons.min.css' rel='stylesheet' />
-                    {/* <link href='assets/vendor/glightbox/css/glightbox.min.css' rel='stylesheet' /> */}
-                    {/* <link href='assets/vendor/swiper/swiper-bundle.min.css' rel='stylesheet' /> */}
+                    
                     <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css'></link>
                     <link href='assets/css/style.css' rel='stylesheet' />
                     <link rel='preconnect' href='https://fonts.gstatic.com' />
@@ -36,7 +34,7 @@ export default function Document() {
                     <NextScript />
 
                     <script src='assets/vendor/bootstrap/js/bootstrap.bundle.min.js'></script>
-                    {/* <script src='assets/vendor/glightbox/js/glightbox.min.js'></script> */}
+                    <script src='assets/vendor/glightbox/js/glightbox.min.js'></script>
                     {/* <script src='assets/vendor/isotope-layout/isotope.pkgd.min.js'></script> */}
                     <script src='assets/vendor/waypoints/noframework.waypoints.js'></script>
                     <script src='assets/vendor/php-email-form/validate.js'></script>

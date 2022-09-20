@@ -17,6 +17,22 @@
   transition: all 0.7s ease-in-out;
 } */
 
+.teamdesktop{
+     display: block !important;
+}
+.teammobile{
+     display: none !important;
+}
+
+@media screen and (max-width: 992px){
+     .teamdesktop{
+          display: none !important;
+     }
+     .teammobile{
+          display: block !important;
+     }
+}
+
 .mobnav {
      display: none !important;
 }
