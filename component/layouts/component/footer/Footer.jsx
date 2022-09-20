@@ -12,7 +12,7 @@ export default function Footer() {
                                        <h4>Subscribe</h4>
                                        <p>Let Us Know Your Email To Keep You Updated.....</p>
                                        <form action='' method='post'>
-                                            <input type='email' name='email' placeholder='For Example :-  john@gmail.com' />
+                                            <input type='email' name='email' placeholder='For Example :-  Shubh@gmail.com' />
                                             <input type='submit' value='Subscribe' />
                                        </form>
                                   </div>

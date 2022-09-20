@@ -6,9 +6,29 @@ export default function Home() {
           <div>
                <section id='hero' className='d-flex align-items-center' data-aos='fade-up' data-aos-delay='100' data-aos-duration='500'>
                     <div className='overlay'></div>
-                    <div className='container text-light rotatecontainer'>
+                    {/* <div className='container=fluid text-light rotatecontainer drl'>
                         
                          <img className='rotate ml-5' src='/assets/img/r2.png' />
+                    </div>
+                    <div className='container text-light rotatecontainer rl'>
+                        
+                         <img className='rotate ml-5' src='/assets/img/r2.png' />
+                    </div> */}
+                    <div className='container desknav'>
+                         <div className='row'>
+                              <div className='col-md-7' data-aos='fade-up' data-aos-delay='600' data-aos-duration='800'>
+                                   <h1 style={{ color: 'white', fontFamily: 'Pathway Gothic One, sans-serif', fontSize: '35px' }}>a trusted business partner that knows how to speak proficiently their customers’ supply chain language and convert them into strategic Business and IT road maps.</h1>
+                              </div>
+                              <div className='col-md-5'></div>
+                         </div>
+                    </div>
+                    <div className='container mobnav'>
+                         <div className='row'>
+                              <div className='col-md-12' data-aos='fade-up' data-aos-delay='600' data-aos-duration='800'>
+                                   <h1 style={{ color: 'white', fontFamily: 'Pathway Gothic One, sans-serif', fontSize: '35px' }}>a trusted business partner that knows how to speak proficiently their customers’ supply chain language and convert them into strategic Business and IT road maps.</h1>
+                              </div>
+                             
+                         </div>
                     </div>
                </section>
 
@@ -225,7 +245,7 @@ export default function Home() {
                                         <div className='icon-box'>
                                              <img src='assets/img/data-integretor.png' className='boxshadow img-responsive img-centered img60 rounded-circle' alt='' />
                                              <h4>
-                                                  <a href=''>Data Integretor</a>
+                                                  <a>Data Integretor</a>
                                              </h4>
                                              <p>Adyant Enterprise Data Integration Platform (ADIP), is a one stop solution for all integration needs. ADIP has got all the capabilities to connect any two systems with multiple connector options.</p>
                                         </div>
@@ -235,7 +255,7 @@ export default function Home() {
                                         <div className='icon-box'>
                                              <img src='assets/img/demand-planning.jpg' className='boxshadow img-responsive img-centered img60 rounded-circle' alt='' />
                                              <h4>
-                                                  <a href=''>Demand Planning</a>
+                                                  <a>Demand Planning</a>
                                              </h4>
                                              <p>Adyant Demand Planning (ADP) is a powerful tool that uses the customer’s demand history to create an accurate forecast of future demand. This forecast can be used to drive planning for distribution, deployment, manufacturing and logistics</p>
                                         </div>
@@ -245,7 +265,7 @@ export default function Home() {
                                         <div className='icon-box'>
                                              <img src='assets/img/replenishment1.jpg' className='boxshadow img-responsive img-centered img60 rounded-circle' alt='' />
                                              <h4>
-                                                  <a href=''>Replenishment</a>
+                                                  <a>Replenishment</a>
                                              </h4>
                                              <p>Adyant Replenishment Planning (ARP) is a powerful tool with in-built process that helps to place the right product in the right place at right time along with effective deployment and allocation of products with various supply situations.</p>
                                         </div>
@@ -255,7 +275,7 @@ export default function Home() {
                                         <div className='icon-box'>
                                              <img src='assets/img/logistic-visibility.png' className='boxshadow img-responsive img-centered img60 rounded-circle' alt='' />
                                              <h4>
-                                                  <a href=''>Logistic Visibility</a>
+                                                  <a>Logistic Visibility</a>
                                              </h4>
                                              <p>Adyant Logistics Management (ALM) addresses the needs of a fast-growing business through real-time visibility, exceptions, collaboration and dynamic execution capabilities to improve agility and profitability.</p>
                                         </div>
@@ -265,7 +285,7 @@ export default function Home() {
                                         <div className='icon-box'>
                                              <img src='assets/img/workforce-management.png' className='boxshadow img-responsive img-centered img60 rounded-circle' alt='' />
                                              <h4>
-                                                  <a href=''>Workforce Management</a>
+                                                  <a>Workforce Management</a>
                                              </h4>
                                              <p>Adyant Workforce Management System (AWFM), is a powerful tool that helps to address a critical challenge for any industry.</p>
                                         </div>
@@ -275,7 +295,7 @@ export default function Home() {
                                         <div className='icon-box'>
                                              <img src='assets/img/order-management.jpg' className='boxshadow img-responsive img-centered img60 rounded-circle' alt='' />
                                              <h4>
-                                                  <a href=''>Order Management</a>
+                                                  <a>Order Management</a>
                                              </h4>
                                              <p>Adyant E-Com / Order Management (AOM) is a simple and powerful tool to manage the processes to deliver customer goods on-time. It allows business to co-ordinate the entire fulfillment process.</p>
                                         </div>
@@ -283,8 +303,6 @@ export default function Home() {
                               </div>
                          </div>
                     </section>
-
-                    
                </main>
           </div>
      );

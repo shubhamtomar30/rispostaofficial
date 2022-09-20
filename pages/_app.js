@@ -1,12 +1,23 @@
 import '../styles/globals.css';
 import Layout from '../component/layouts/layout';
-import Aos from 'aos';
+import Head from 'next/head';
+
+
+
+
 
 function MyApp({ Component, pageProps }) {
+
+     
      return (
-          <Layout>
-               <Component {...pageProps} />
-          </Layout>
+          <>
+               <Head>
+                    <meta name='viewport' content='width=device-width , initial-scale=1  , maximum-scale=1000.0' />
+               </Head>
+               <Layout>
+                    <Component {...pageProps} />
+               </Layout>
+          </>
      );
 }
 

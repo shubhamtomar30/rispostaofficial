@@ -1,9 +1,22 @@
+
+  /* [data-theme="dark"] {
+    --primary-color: rgb(107, 106, 134);
+    --secondary-color: #818cab;
+    --font-color: #e1e1ff;
+    --bg-color: #4d5055;
+    --heading-color: #63656d;
+    --color: red; 
+  } */
+
+
+
 html,
 body {
-  padding: 0;
-  margin: 0;
+  
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    color: var(--color) !important;
+    background-color: white !important;
 }
 
 a {
@@ -22,5 +35,46 @@ a {
   body {
     color: white;
     background: black;
+    /* max-width: 200px; */
+  }
+}
+@media (max-width: 991px) {
+  
+header {
+    color: white;
+    /* background: black; */
+    /* max-width: 200px; */
+    width: device-width !important;
+zoom: 1.7 !important;
+min-zoom: 0.4 !important;
+max-zoom: 2 !important;
+user-zoom: fixed !important
+  }
+footer {
+    color: white;
+    /* background: black; */
+    /* max-width: 200px; */
+    width: device-width !important;
+zoom: 1.7 !important;
+min-zoom: 0.4 !important;
+max-zoom: 2 !important;
+user-zoom: fixed !important
+  }
+ icon-box{
+    color: white;
+    /* background: black; */
+    /* max-width: 200px; */
+    width: device-width !important;
+zoom: 1.7 !important;
+min-zoom: 0.4 !important;
+max-zoom: 2 !important;
+user-zoom: fixed !important
+  }
+  body>*:not(section){
+    font-size: 32px !important;
+    zoom: 1.2 !important;
+min-zoom: 0.4 !important;
+max-zoom: 2 !important;
+user-zoom: fixed !important
   }
 }

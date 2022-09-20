@@ -3,15 +3,18 @@
      "version": "0.1.0",
      "private": true,
      "scripts": {
-          "dev": "node server.js",
-          "build": "next build",
-          "start": "NODE_ENV=production node server.js"
+          "dev": "next dev",
+          "build": "next build ",
+          "start": "NODE_ENV=production node server.js",
+          "lint": "next lint",
+          "export": "next build && next export"
      },
      "dependencies": {
           "aos": "^2.3.4",
           "next": "12.2.5",
           "react": "18.2.0",
-          "react-dom": "18.2.0"
+          "react-dom": "18.2.0",
+          "react-type-animation": "^2.1.1"
      },
      "devDependencies": {
           "eslint": "8.23.0",

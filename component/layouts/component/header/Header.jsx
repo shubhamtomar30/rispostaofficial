@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import React from 'react';
+import React, { useState } from 'react';
 
 import { useRouter } from 'next/router';
 
@@ -8,14 +8,23 @@ export default function Header() {
     const router = useRouter();
      var route = router.pathname;
 
+     const [mobnav , setmobnav] = useState(false);
+
      
 
      return (
-           <>
+          <>
                <div>
-                    
-
                     <header id='header' className='d-flex align-items-center'>
+                         <div className='container d-flex align-items-center justify-content-between'>
+                              <h1 className='logo'>
+                                   <a href={'/'}>
+                                        <img src='./assets/img/risposta-logo.png' alt='' />
+                                   </a>
+                              </h1>
+
+                              <nav id='navbar' className='navbar'>
+                                   {/* <header id='header' className='d-flex align-items-center'>
                          <div className='container-fluid d-flex align-items-center justify-content-between'>
                               <h1 className='logo'>
                                    <a href={'/'}>
@@ -23,15 +32,15 @@ export default function Header() {
                                    </a>
                               </h1>
 
-                              <nav id='navbar' className='navbar' style={{ marginRight: '100px' }}>
+                              <nav id='navbar' className='navbar' style={{ marginRight: '100px' }}> */}
                                    <ul>
                                         <li>
-                                             <Link className='nav-link' href={'/'}>
+                                             <Link className='nav-link  rispostanav' href={'/'}>
                                                   <a className={` text-uppercase ${route == '/' ? 'active' : ''}`}>Home</a>
                                              </Link>
                                         </li>
                                         <li>
-                                             <Link className='nav-link' href={'/AboutUs'}>
+                                             <Link className='nav-link' href={'/AboutUs'} id="mobilenav">
                                                   <a className={` text-uppercase ${route == '/AboutUs' ? 'active' : ''}`}>About Us</a>
                                              </Link>
                                         </li>

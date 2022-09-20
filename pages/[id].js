@@ -9,29 +9,29 @@ const name = () => {
                <div>
                     <div className='container-fluid' style={{ height: '25vh' }}>
                          <div className='row mt-5'>
-                              <div className='col-md-3'></div>
-                              <div className='col-md-6'>
+                              <div className='col-lg-3'></div>
+                              <div className='col-lg-6'>
                                    <div className='row'>
-                                        <div className='col-md-8'>
+                                        <div className='col-lg-8'>
                                              <h3 className='ff'>Business Development Executive</h3>
                                              <h3 className='ff'>0-2 year</h3>
 
                                              <p className='ff mt-3'>FULL TIME</p>
                                         </div>
-                                        <div className='col-md-4'>
+                                        <div className='col-lg-4'>
                                              <a href='mailto:careers@rispostacorp.com?subject=For Business Development Executive!&body=' className='btn btn-info text-uppercase'>
                                                   Apply for this job
                                              </a>
                                         </div>
                                    </div>
                               </div>
-                              <div className='col-md-3'></div>
+                              <div className='col-lg-3'></div>
                          </div>
                     </div>
                     <div className='container-fluid bg-light'>
                          <div className='row'>
-                              <div className='col-md-3'></div>
-                              <div className='col-md-6'>
+                              <div className='col-lg-3'></div>
+                              <div className='col-lg-6'>
                                    <h4 className='ff mt-5'>About us</h4>
                                    <p className='ff text-justify'>
                                         If there’s a business partner that knows how to speak proficiently their customers’ supply chain language and convert them into strategic Business and IT road maps, it’s RISPOSTA. RISPOSTA’s state of the art integrated platform ADYANT delivers strategic solutions to plan, execute, Integrate and optimize supply chains by providing businesses with complete visibility and control and ultimately reducing their operational costs and improving their revenue. Founded in 2021 in Hyderabad, India by Supply Chain Veteran founders with deep domain expertise complementing in Business acumen, Functional, Technology and Organizational transformation. RISPOSTA has offices in India and South Africa. Passion for helping customers to come over their Supply Chain and IT challenges through RISPOSTA’s offerings. We now serve customers in India and expanding rapidly in Europe and APAC. ADYANT, the enterprise platform & offerings are powered by Machine Learning with
@@ -69,7 +69,7 @@ const name = () => {
                                         <li>Knowledge of social media platforms like Facebook, Twitter, LinkedIn</li>
                                    </ul>
                               </div>
-                              <div className='col-md-3'></div>
+                              <div className='col-lg-3'></div>
                          </div>
                     </div>
                </div>
@@ -80,29 +80,29 @@ const name = () => {
                <div>
                     <div className='container-fluid' style={{ height: '25vh' }}>
                          <div className='row mt-5'>
-                              <div className='col-md-3'></div>
-                              <div className='col-md-6'>
+                              <div className='col-lg-3'></div>
+                              <div className='col-lg-6'>
                                    <div className='row'>
-                                        <div className='col-md-8'>
+                                        <div className='col-lg-8'>
                                              <h3 className='ff'>Software Development Engineer</h3>
                                              <h3 className='ff text-uppercase'>(Remote, US Based) 2 - 5 years of experience</h3>
 
                                              <p className='ff mt-3 text-uppercase'>REMOTE (US) /Frontend Engineer/FULL TIME</p>
                                         </div>
-                                        <div className='col-md-4'>
+                                        <div className='col-lg-4'>
                                              <a href='mailto:careers@rispostacorp.com?subject=For Software Development Engineer!&body=' className='btn btn-info text-uppercase'>
                                                   Apply for this job
                                              </a>
                                         </div>
                                    </div>
                               </div>
-                              <div className='col-md-3'></div>
+                              <div className='col-lg-3'></div>
                          </div>
                     </div>
                     <div className='container-fluid bg-light'>
                          <div className='row'>
-                              <div className='col-md-3'></div>
-                              <div className='col-md-6'>
+                              <div className='col-lg-3'></div>
+                              <div className='col-lg-6'>
                                    <h4 className='ff mt-5'>About us</h4>
                                    <p className='ff text-justify'>
                                         If there’s a business partner that knows how to speak proficiently their customers’ supply chain language and convert them into strategic Business and IT road maps, it’s RISPOSTA. RISPOSTA’s state of the art integrated platform ADYANT delivers strategic solutions to plan, execute, Integrate and optimize supply chains by providing businesses with complete visibility and control and ultimately reducing their operational costs and improving their revenue. Founded in 2021 in Hyderabad, India by Supply Chain Veteran founders with deep domain expertise complementing in Business acumen, Functional, Technology and Organizational transformation. RISPOSTA has offices in India and South Africa. Passion for helping customers to come over their Supply Chain and IT challenges through RISPOSTA’s offerings. We now serve customers in India and expanding rapidly in Europe and APAC. ADYANT, the enterprise platform & offerings are powered by Machine Learning with
@@ -149,7 +149,7 @@ const name = () => {
                                         <li>You are proficient with AWS ecosystem</li>
                                    </ul>
                               </div>
-                              <div className='col-md-3'></div>
+                              <div className='col-lg-3'></div>
                          </div>
                     </div>
                </div>
@@ -160,29 +160,29 @@ const name = () => {
                <div>
                     <div className='container-fluid' style={{ height: '25vh' }}>
                          <div className='row mt-5'>
-                              <div className='col-md-3'></div>
-                              <div className='col-md-6'>
+                              <div className='col-lg-3'></div>
+                              <div className='col-lg-6'>
                                    <div className='row'>
-                                        <div className='col-md-8'>
+                                        <div className='col-lg-8'>
                                              <h3 className='ff'>Technical Consultant</h3>
                                              <h3 className='ff text-uppercase'> 4-10 years of experience</h3>
 
                                              <p className='ff mt-3 text-uppercase'>Production Support/FULL TIME</p>
                                         </div>
-                                        <div className='col-md-4'>
+                                        <div className='col-lg-4'>
                                              <a href='mailto:careers@rispostacorp.com?subject=For Technical Consultant!&body=' className='btn btn-info text-uppercase'>
                                                   Apply for this job
                                              </a>
                                         </div>
                                    </div>
                               </div>
-                              <div className='col-md-3'></div>
+                              <div className='col-lg-3'></div>
                          </div>
                     </div>
                     <div className='container-fluid bg-light'>
                          <div className='row'>
-                              <div className='col-md-3'></div>
-                              <div className='col-md-6'>
+                              <div className='col-lg-3'></div>
+                              <div className='col-lg-6'>
                                    <h4 className='ff mt-5'>About us</h4>
                                    <p className='ff text-justify'>
                                         If there’s a business partner that knows how to speak proficiently their customers’ supply chain language and convert them into strategic Business and IT road maps, it’s RISPOSTA. RISPOSTA’s state of the art integrated platform ADYANT delivers strategic solutions to plan, execute, Integrate and optimize supply chains by providing businesses with complete visibility and control and ultimately reducing their operational costs and improving their revenue. Founded in 2021 in Hyderabad, India by Supply Chain Veteran founders with deep domain expertise complementing in Business acumen, Functional, Technology and Organizational transformation. RISPOSTA has offices in India and South Africa. Passion for helping customers to come over their Supply Chain and IT challenges through RISPOSTA’s offerings. We now serve customers in India and expanding rapidly in Europe and APAC. ADYANT, the enterprise platform & offerings are powered by Machine Learning with
@@ -218,7 +218,7 @@ const name = () => {
                                         <li>Unit Testing, Integration Testing and Support of User acceptance Testing</li>
                                    </ul>
                               </div>
-                              <div className='col-md-3'></div>
+                              <div className='col-lg-3'></div>
                          </div>
                     </div>
                </div>
@@ -229,27 +229,27 @@ const name = () => {
                <div>
                     <div className='container-fluid' style={{ height: '25vh' }}>
                          <div className='row mt-5'>
-                              <div className='col-md-3'></div>
-                              <div className='col-md-6'>
+                              <div className='col-lg-3'></div>
+                              <div className='col-lg-6'>
                                    <div className='row'>
-                                        <div className='col-md-8'>
+                                        <div className='col-lg-8'>
                                              <h3 className='ff'>Vice President of Operations</h3>
                                              <h3 className='ff text-uppercase'> 10-15 years of experience</h3>
                                         </div>
-                                        <div className='col-md-4'>
+                                        <div className='col-lg-4'>
                                              <a href='mailto:careers@rispostacorp.com?subject= For Vice President Of Operations!&body=' className='btn btn-info text-uppercase'>
                                                   Apply for this job
                                              </a>
                                         </div>
                                    </div>
                               </div>
-                              <div className='col-md-3'></div>
+                              <div className='col-lg-3'></div>
                          </div>
                     </div>
                     <div className='container-fluid bg-light'>
                          <div className='row'>
-                              <div className='col-md-3'></div>
-                              <div className='col-md-6'>
+                              <div className='col-lg-3'></div>
+                              <div className='col-lg-6'>
                                    <h4 className='ff mt-5'>About us</h4>
                                    <p className='ff text-justify'>
                                         If there’s a business partner that knows how to speak proficiently their customers’ supply chain language and convert them into strategic Business and IT road maps, it’s RISPOSTA. RISPOSTA’s state of the art integrated platform ADYANT delivers strategic solutions to plan, execute, Integrate and optimize supply chains by providing businesses with complete visibility and control and ultimately reducing their operational costs and improving their revenue. Founded in 2021 in Hyderabad, India by Supply Chain Veteran founders with deep domain expertise complementing in Business acumen, Functional, Technology and Organizational transformation. RISPOSTA has offices in India and South Africa. Passion for helping customers to come over their Supply Chain and IT challenges through RISPOSTA’s offerings. We now serve customers in India and expanding rapidly in Europe and APAC. ADYANT, the enterprise platform & offerings are powered by Machine Learning with
@@ -307,7 +307,7 @@ const name = () => {
                                         <li>Self-Motivated, energetic, resourceful and do what it takes to get the job done.</li>
                                    </ul>
                               </div>
-                              <div className='col-md-3'></div>
+                              <div className='col-lg-3'></div>
                          </div>
                     </div>
                </div>
@@ -318,27 +318,27 @@ const name = () => {
                <div>
                     <div className='container-fluid' style={{ height: '25vh' }}>
                          <div className='row mt-5'>
-                              <div className='col-md-3'></div>
-                              <div className='col-md-6'>
+                              <div className='col-lg-3'></div>
+                              <div className='col-lg-6'>
                                    <div className='row'>
-                                        <div className='col-md-8'>
+                                        <div className='col-lg-8'>
                                              <h3 className='ff'>Delivery Manager</h3>
                                              <h3 className='ff text-uppercase'>8-14 years</h3>
                                         </div>
-                                        <div className='col-md-4'>
+                                        <div className='col-lg-4'>
                                              <a href='mailto:careers@rispostacorp.com?subject=For Delivery Manager!&body=' className='btn btn-info text-uppercase'>
                                                   Apply for this job
                                              </a>
                                         </div>
                                    </div>
                               </div>
-                              <div className='col-md-3'></div>
+                              <div className='col-lg-3'></div>
                          </div>
                     </div>
                     <div className='container-fluid bg-light'>
                          <div className='row'>
-                              <div className='col-md-3'></div>
-                              <div className='col-md-6'>
+                              <div className='col-lg-3'></div>
+                              <div className='col-lg-6'>
                                    <h4 className='ff mt-5'>About us</h4>
                                    <p className='ff text-justify'>
                                         If there’s a business partner that knows how to speak proficiently their customers’ supply chain language and convert them into strategic Business and IT road maps, it’s RISPOSTA. RISPOSTA’s state of the art integrated platform ADYANT delivers strategic solutions to plan, execute, Integrate and optimize supply chains by providing businesses with complete visibility and control and ultimately reducing their operational costs and improving their revenue. Founded in 2021 in Hyderabad, India by Supply Chain Veteran founders with deep domain expertise complementing in Business acumen, Functional, Technology and Organizational transformation. RISPOSTA has offices in India and South Africa. Passion for helping customers to come over their Supply Chain and IT challenges through RISPOSTA’s offerings. We now serve customers in India and expanding rapidly in Europe and APAC. ADYANT, the enterprise platform & offerings are powered by Machine Learning with
@@ -428,7 +428,7 @@ const name = () => {
                                         <li>Motivated, confident, self-sufficient and able to contribute from day one</li>
                                    </ul>
                               </div>
-                              <div className='col-md-3'></div>
+                              <div className='col-lg-3'></div>
                          </div>
                     </div>
                </div>
@@ -439,28 +439,28 @@ const name = () => {
                <div>
                     <div className='container-fluid' style={{ height: '25vh' }}>
                          <div className='row mt-5'>
-                              <div className='col-md-3'></div>
-                              <div className='col-md-6'>
+                              <div className='col-lg-3'></div>
+                              <div className='col-lg-6'>
                                    <div className='row'>
-                                        <div className='col-md-8'>
+                                        <div className='col-lg-8'>
                                              <h3 className='ff'>Sr. Delivery Manager</h3>
                                              <h3 className='ff text-uppercase'>10-16 years</h3>
                                              <h3 className='ff text-uppercase'>Capetown , SouthAfrica && Hyderabad , India</h3>
                                         </div>
-                                        <div className='col-md-4'>
+                                        <div className='col-lg-4'>
                                              <a href='mailto:careers@rispostacorp.com?subject=For Sr. Delivery Manager!&body=' className='btn btn-info text-uppercase'>
                                                   Apply for this job
                                              </a>
                                         </div>
                                    </div>
                               </div>
-                              <div className='col-md-3'></div>
+                              <div className='col-lg-3'></div>
                          </div>
                     </div>
                     <div className='container-fluid bg-light'>
                          <div className='row'>
-                              <div className='col-md-3'></div>
-                              <div className='col-md-6'>
+                              <div className='col-lg-3'></div>
+                              <div className='col-lg-6'>
                                    <h4 className='ff mt-5'>About us</h4>
                                    <p className='ff text-justify'>
                                         If there’s a business partner that knows how to speak proficiently their customers’ supply chain language and convert them into strategic Business and IT road maps, it’s RISPOSTA. RISPOSTA’s state of the art integrated platform ADYANT delivers strategic solutions to plan, execute, Integrate and optimize supply chains by providing businesses with complete visibility and control and ultimately reducing their operational costs and improving their revenue. Founded in 2021 in Hyderabad, India by Supply Chain Veteran founders with deep domain expertise complementing in Business acumen, Functional, Technology and Organizational transformation. RISPOSTA has offices in India and South Africa. Passion for helping customers to come over their Supply Chain and IT challenges through RISPOSTA’s offerings. We now serve customers in India and expanding rapidly in Europe and APAC. ADYANT, the enterprise platform & offerings are powered by Machine Learning with
@@ -550,7 +550,7 @@ const name = () => {
                                         <li>Motivated, confident, self-sufficient and able to contribute from day one</li>
                                    </ul>
                               </div>
-                              <div className='col-md-3'></div>
+                              <div className='col-lg-3'></div>
                          </div>
                     </div>
                </div>
