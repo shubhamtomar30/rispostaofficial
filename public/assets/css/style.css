@@ -33,7 +33,7 @@
      }
 }
 
-.mobnav {
+.mobnavbar {
      display: none !important;
 }
 .desknav {
@@ -41,7 +41,7 @@
 }
 
 @media screen and (max-width: 991px) {
-     .mobnav {
+     .mobnavbar {
           display: block !important;
      }
 
