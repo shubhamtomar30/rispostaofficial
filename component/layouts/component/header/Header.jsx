@@ -23,7 +23,7 @@ export default function Header() {
                                    </a>
                               </h1>
                              
-                              <nav id='navbar' className='navbar desknav'>
+                              <nav id='navbar' className='navbar'>
                                    {/* <header id='header' className='d-flex align-items-center'>
                          <div className='container-fluid d-flex align-items-center justify-content-between'>
                               <h1 className='logo'>
