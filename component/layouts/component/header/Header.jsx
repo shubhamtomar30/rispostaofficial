@@ -98,7 +98,7 @@ export default function Header() {
                                    </ul>
                                    <i className='bi bi-list mobile-nav-toggle'></i>
                               </nav>
-                              <nav id='navbar' className={`mobnavbar navbar ${mobnav === true ? 'navbar-mobile' : ''}`}>
+                              <nav id='navbar' className={` navbar ${mobnav === true ? 'navbar-mobile' : ''}`}>
                                    <ul>
                                         <li>
                                              <Link className='nav-link' href={'/'}>
@@ -145,10 +145,10 @@ export default function Header() {
                                         </li> */}
 
                                         <li className='dropdown'>
-                                             <a href='#' className={`text-uppercase ${route == '/Leadership' || route == '/Careers' || route == '/OurCulture' || route == '/Partnerships' ? 'active' : ''}`}>
+                                             <a className={`text-uppercase ${route == '/Leadership' || route == '/Careers' || route == '/OurCulture' || route == '/Partnerships' ? 'active' : ''}`}>
                                                   Our Company<i className='bi bi-chevron-down'></i>
                                              </a>
-                                             <ul style={{ borderRadius: '8px', padding: '10px' }}>
+                                             <ul className='dropdown-active' style={{ borderRadius: '8px', padding: '10px' }}>
                                                   <li>
                                                        <Link className='nav-link' href={'/Team'}>
                                                             <a
