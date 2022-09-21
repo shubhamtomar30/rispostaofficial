@@ -25,21 +25,12 @@ const Leadership = () => {
                          </div>
 
                          <div className='row'>
-                              <div className='col d-flex align-items-stretch' data-aos='fade-up' data-aos-delay='200' data-aos-duration='1000'>
+                              <div className='col-lg-2 d-flex align-items-stretch' data-aos='fade-up' data-aos-delay='200' data-aos-duration='1000'>
                                    <div className='member'>
                                         <div className='member-img'>
                                              <img src='assets/img/team/Sai2.jpeg' className='img-fluid w-100' alt='' />
                                              <div className='social'>
-                                                  <Link href='' passHref>
-                                                       <a target='_blank'>
-                                                            <i className='bi bi-twitter'></i>
-                                                       </a>
-                                                  </Link>
-                                                  <Link href='' passHref>
-                                                       <a target='_blank'>
-                                                            <i className='bi bi-instagram'></i>
-                                                       </a>
-                                                  </Link>
+                                                  
                                                   <Link href={'https://www.linkedin.com/in/sai-mudigonda/'} passHref>
                                                        <a target='_blank'>
                                                             <i className='bi bi-linkedin'></i>
@@ -48,42 +39,12 @@ const Leadership = () => {
                                              </div>
                                         </div>
                                         <div className='member-info'>
-                                             <h4>Sai Mudigonda</h4>
-                                             <span>Chief Executive Officer and Founder</span>
+                                             <h4>Sai</h4>
+                                             <span>Founder</span>
                                         </div>
                                    </div>
                               </div>
-                              <div className='col-lg-9 col-md-6 d-flex align-items-stretch' data-aos='fade-up' data-aos-delay='200' data-aos-duration='1000'></div>
-                         </div>
-                         <div className='row'>
-                              <div className='col-lg-2 col-md-6 d-flex align-items-stretch' data-aos='fade-up' data-aos-delay='200' data-aos-duration='1000'>
-                                   <div className='member'>
-                                        <div className='member-img'>
-                                             <img src='assets/img/team/pm.png' className='img-fluid' alt='' />
-                                             <div className='social'>
-                                                  <Link href='' passHref>
-                                                       <a target='_blank'>
-                                                            <i className='bi bi-twitter'></i>
-                                                       </a>
-                                                  </Link>
-                                                  <Link href='' passHref>
-                                                       <a target='_blank'>
-                                                            <i className='bi bi-instagram'></i>
-                                                       </a>
-                                                  </Link>
-                                                  <Link href={'https://www.linkedin.com/in/prashanthi-mudigonda-870a3517'} passHref>
-                                                       <a target='_blank'>
-                                                            <i className='bi bi-linkedin'></i>
-                                                       </a>
-                                                  </Link>
-                                             </div>
-                                        </div>
-                                        <div className='member-info'>
-                                             <h4>Prashanthi Mudigonda</h4>
-                                             <span> Vice President Of Operations</span>
-                                        </div>
-                                   </div>
-                              </div>
+
                               <div className='col-lg-2 col-md-6 d-flex align-items-stretch' data-aos='fade-up' data-aos-delay='200' data-aos-duration='1000'>
                                    <div className='member'>
                                         <div className='member-img'>
@@ -107,8 +68,8 @@ const Leadership = () => {
                                              </div>
                                         </div>
                                         <div className='member-info'>
-                                             <h4>Visarada kumar</h4>
-                                             <span>Software Architect</span>
+                                             <h4>Visarada</h4>
+                                             <span>Product Engineering</span>
                                         </div>
                                    </div>
                               </div>
@@ -135,7 +96,7 @@ const Leadership = () => {
                                              </div>
                                         </div>
                                         <div className='member-info'>
-                                             <h4>Trisulapani Mulugu</h4>
+                                             <h4>Trisulapani</h4>
                                              <span>Customer Success</span>
                                         </div>
                                    </div>
@@ -163,7 +124,7 @@ const Leadership = () => {
                                              </div>
                                         </div>
                                         <div className='member-info'>
-                                             <h4>Akash Rajawat</h4>
+                                             <h4>Akash</h4>
                                              <span>Customer Success</span>
                                         </div>
                                    </div>
@@ -191,7 +152,7 @@ const Leadership = () => {
                                              </div>
                                         </div>
                                         <div className='member-info'>
-                                             <h4>Rudra Tomar</h4>
+                                             <h4>Rudra</h4>
                                              <span>Customer Success</span>
                                         </div>
                                    </div>
@@ -219,7 +180,7 @@ const Leadership = () => {
                                              </div>
                                         </div>
                                         <div className='member-info'>
-                                             <h4>Shubham Tomar</h4>
+                                             <h4>Subham</h4>
                                              <span>Customer Success</span>
                                         </div>
                                    </div>
@@ -230,7 +191,7 @@ const Leadership = () => {
                               <div className='col-lg-2 col-md-6 d-flex align-items-stretch' data-aos='fade-up' data-aos-delay='200' data-aos-duration='1000'>
                                    <div className='member'>
                                         <div className='member-img'>
-                                             <img src='assets/img/team/ss.png' className='img-fluid' alt='' />
+                                             <img src='assets/img/team/pm.jpeg' className='img-fluid' alt='' />
                                              <div className='social'>
                                                   <Link href='' passHref>
                                                        <a target='_blank'>
@@ -242,7 +203,7 @@ const Leadership = () => {
                                                             <i className='bi bi-instagram'></i>
                                                        </a>
                                                   </Link>
-                                                  <Link href={'https://www.linkedin.com/in/surya-shukla-629049242/'} passHref>
+                                                  <Link href={'https://www.linkedin.com/in/prashanthi-mudigonda-870a3517'} passHref>
                                                        <a target='_blank'>
                                                             <i className='bi bi-linkedin'></i>
                                                        </a>
@@ -250,8 +211,36 @@ const Leadership = () => {
                                              </div>
                                         </div>
                                         <div className='member-info'>
-                                             <h4>Surya Narayan Shukla</h4>
-                                             <span>Accountant And Admin</span>
+                                             <h4>Prashanthi</h4>
+                                             <span> Vice President Of Operations</span>
+                                        </div>
+                                   </div>
+                              </div>
+                              <div className='col-lg-2 col-md-6 d-flex align-items-stretch' data-aos='fade-up' data-aos-delay='200' data-aos-duration='1000'>
+                                   <div className='member'>
+                                        <div className='member-img'>
+                                             <img src='assets/img/team/parul.jpg' className='img-fluid' alt='' />
+                                             <div className='social'>
+                                                  <Link href='' passHref>
+                                                       <a target='_blank'>
+                                                            <i className='bi bi-twitter'></i>
+                                                       </a>
+                                                  </Link>
+                                                  <Link href='' passHref>
+                                                       <a target='_blank'>
+                                                            <i className='bi bi-instagram'></i>
+                                                       </a>
+                                                  </Link>
+                                                  <Link href={'https://www.linkedin.com/in/parul-sengar-76940b207/'} passHref>
+                                                       <a target='_blank'>
+                                                            <i className='bi bi-linkedin'></i>
+                                                       </a>
+                                                  </Link>
+                                             </div>
+                                        </div>
+                                        <div className='member-info'>
+                                             <h4>Parul</h4>
+                                             <span>Customer Success</span>
                                         </div>
                                    </div>
                               </div>
@@ -279,15 +268,16 @@ const Leadership = () => {
                                              </div>
                                         </div>
                                         <div className='member-info'>
-                                             <h4>Bhanuchandra Prasad Vushakola </h4>
-                                             <span>Associate Consultant</span>
+                                             <h4>Bhanuchandra</h4>
+                                             <span>Product Engineering</span>
                                         </div>
                                    </div>
                               </div>
+
                               <div className='col-lg-2 col-md-6 d-flex align-items-stretch' data-aos='fade-up' data-aos-delay='200' data-aos-duration='1000'>
                                    <div className='member'>
                                         <div className='member-img'>
-                                             <img src='assets/img/team/parul.jpg' className='img-fluid' alt='' />
+                                             <img src='assets/img/team/param.png' className='img-fluid' alt='' />
                                              <div className='social'>
                                                   <Link href='' passHref>
                                                        <a target='_blank'>
@@ -299,7 +289,7 @@ const Leadership = () => {
                                                             <i className='bi bi-instagram'></i>
                                                        </a>
                                                   </Link>
-                                                  <Link href={'https://www.linkedin.com/in/parul-sengar-76940b207/'} passHref>
+                                                  <Link href={'https://www.linkedin.com/in/paramjeet-singh-rathore-b05576183/'} passHref>
                                                        <a target='_blank'>
                                                             <i className='bi bi-linkedin'></i>
                                                        </a>
@@ -307,8 +297,8 @@ const Leadership = () => {
                                              </div>
                                         </div>
                                         <div className='member-info'>
-                                             <h4>Parul Sengar</h4>
-                                             <span>Customer Success</span>
+                                             <h4>Paramjeet</h4>
+                                             <span>Product Engineering</span>
                                         </div>
                                    </div>
                               </div>
@@ -336,7 +326,7 @@ const Leadership = () => {
                                              </div>
                                         </div>
                                         <div className='member-info'>
-                                             <h4>Sachin Shukla</h4>
+                                             <h4>Sachin</h4>
                                              <span>Customer Success</span>
                                         </div>
                                    </div>
@@ -365,40 +355,12 @@ const Leadership = () => {
                                              </div>
                                         </div>
                                         <div className='member-info'>
-                                             <h4>Akash Shukla</h4>
-                                             <span>Software Engineer</span>
+                                             <h4>Akash</h4>
+                                             <span>Product Engineering</span>
                                         </div>
                                    </div>
                               </div>
 
-                              <div className='col-lg-2 col-md-6 d-flex align-items-stretch' data-aos='fade-up' data-aos-delay='200' data-aos-duration='1000'>
-                                   <div className='member'>
-                                        <div className='member-img'>
-                                             <img src='assets/img/team/param.png' className='img-fluid' alt='' />
-                                             <div className='social'>
-                                                  <Link href='' passHref>
-                                                       <a target='_blank'>
-                                                            <i className='bi bi-twitter'></i>
-                                                       </a>
-                                                  </Link>
-                                                  <Link href='' passHref>
-                                                       <a target='_blank'>
-                                                            <i className='bi bi-instagram'></i>
-                                                       </a>
-                                                  </Link>
-                                                  <Link href={'https://www.linkedin.com/in/paramjeet-singh-rathore-b05576183/'} passHref>
-                                                       <a target='_blank'>
-                                                            <i className='bi bi-linkedin'></i>
-                                                       </a>
-                                                  </Link>
-                                             </div>
-                                        </div>
-                                        <div className='member-info'>
-                                             <h4>Paramjeet Singh Rathore</h4>
-                                             <span>Software Engineer</span>
-                                        </div>
-                                   </div>
-                              </div>
                               <div className='col-lg-2 col-md-6 d-flex align-items-stretch' data-aos='fade-up' data-aos-delay='200' data-aos-duration='1000'>
                                    <div className='member'>
                                         <div className='member-img'>
@@ -422,8 +384,36 @@ const Leadership = () => {
                                              </div>
                                         </div>
                                         <div className='member-info'>
-                                             <h4>Kalyan gangulakurthi</h4>
+                                             <h4>Kalyan</h4>
                                              <span>Associate Consultant</span>
+                                        </div>
+                                   </div>
+                              </div>
+                              <div className='col-lg-2 col-md-6 d-flex align-items-stretch' data-aos='fade-up' data-aos-delay='200' data-aos-duration='1000'>
+                                   <div className='member'>
+                                        <div className='member-img'>
+                                             <img src='assets/img/team/ss.png' className='img-fluid' alt='' />
+                                             <div className='social'>
+                                                  <Link href='' passHref>
+                                                       <a target='_blank'>
+                                                            <i className='bi bi-twitter'></i>
+                                                       </a>
+                                                  </Link>
+                                                  <Link href='' passHref>
+                                                       <a target='_blank'>
+                                                            <i className='bi bi-instagram'></i>
+                                                       </a>
+                                                  </Link>
+                                                  <Link href={'https://www.linkedin.com/in/surya-shukla-629049242/'} passHref>
+                                                       <a target='_blank'>
+                                                            <i className='bi bi-linkedin'></i>
+                                                       </a>
+                                                  </Link>
+                                             </div>
+                                        </div>
+                                        <div className='member-info'>
+                                             <h4>Surya</h4>
+                                             <span>Operations</span>
                                         </div>
                                    </div>
                               </div>
@@ -983,8 +973,6 @@ const Leadership = () => {
                                         </div>
                                    </div>
                               </div>
-
-                             
 
                               {/* <div className='col-lg-3 col-md-6 d-flex align-items-stretch' data-aos='fade-up' data-aos-delay='200' data-aos-duration='1000'>
                                    <div className='member'>

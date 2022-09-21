@@ -22,7 +22,7 @@ export default function Home() {
                               <div className='col-md-5'></div>
                          </div>
                     </div>
-                    <div className='container mobnav'>
+                    <div className='container mobnavbar'>
                          <div className='row'>
                               <div className='col-md-12' data-aos='fade-up' data-aos-delay='600' data-aos-duration='800'>
                                    <h1 style={{ color: 'white', fontFamily: 'Pathway Gothic One, sans-serif', fontSize: '35px' }}>a trusted business partner that knows how to speak proficiently their customers’ supply chain language and convert them into strategic Business and IT road maps.</h1>
