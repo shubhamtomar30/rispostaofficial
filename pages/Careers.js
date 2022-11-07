@@ -1,8 +1,12 @@
+import Head from 'next/head';
 import Link from 'next/link';
 
 const Careers = () => {
      return (
           <div>
+               <Head>
+                    <title>Careers</title>
+               </Head>
                <div className='container-fluid careershead mb-3 mt-3' data-aos='fade-up' data-aos-delay='100' data-aos-duration='500'>
                     <div className='overlay'></div>
                     <div className='row h-100'>
@@ -87,29 +91,7 @@ const Careers = () => {
                                              </div>
                                         </a>
                                    </Link>
-                                   <Link href={'/4'}>
-                                        <a>
-                                             <div className='jobposts card p-3 mt-4 bs1' data-aos='fade-up' data-aos-delay='200' data-aos-duration='1000'>
-                                                  <ul className='nav' style={{ listStyle: 'none' }}>
-                                                       <li>
-                                                            <img src='assets/img/circlelogo.png' className='img-rounded jpimg bs1' alt='' width={'30%'} />
-                                                       </li>
-                                                       <li className='nav-item ts fw-semibold' style={{ width: '320px' }}>
-                                                            <span>Vice President of Operations</span>
-                                                       </li>
-                                                       <li className='nav-item ts' style={{ width: '250px' }}>
-                                                            <span>Operations</span>
-                                                       </li>
-                                                       <li className='nav-item ts' style={{ width: '200px' }}>
-                                                            <span>Hyderabad , India</span>
-                                                       </li>
-                                                       <li className='nav-item ts'>
-                                                            <span>Full Time</span>
-                                                       </li>
-                                                  </ul>
-                                             </div>
-                                        </a>
-                                   </Link>
+                                  
                                    <Link href={'/5'}>
                                         <a>
                                              <div className='jobposts card p-3 mt-4 bs1' data-aos='fade-up' data-aos-delay='200' data-aos-duration='1000'>

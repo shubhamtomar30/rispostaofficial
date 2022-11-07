@@ -1,19 +1,16 @@
+import Head from 'next/head';
 import Link from 'next/link';
 import React from 'react';
 
 export default function Home() {
      return (
           <div>
+               <Head>
+                    <title>Home</title>
+               </Head>
                <section id='hero' className='d-flex align-items-center' data-aos='fade-up' data-aos-delay='100' data-aos-duration='500'>
                     <div className='overlay'></div>
-                    {/* <div className='container=fluid text-light rotatecontainer drl'>
-                        
-                         <img className='rotate ml-5' src='/assets/img/r2.png' />
-                    </div>
-                    <div className='container text-light rotatecontainer rl'>
-                        
-                         <img className='rotate ml-5' src='/assets/img/r2.png' />
-                    </div> */}
+
                     <div className='container desknav'>
                          <div className='row'>
                               <div className='col-md-7' data-aos='fade-up' data-aos-delay='600' data-aos-duration='800'>
@@ -27,7 +24,6 @@ export default function Home() {
                               <div className='col-md-12' data-aos='fade-up' data-aos-delay='600' data-aos-duration='800'>
                                    <h1 style={{ color: 'white', fontFamily: 'Pathway Gothic One, sans-serif', fontSize: '35px' }}>a trusted business partner that knows how to speak proficiently their customers’ supply chain language and convert them into strategic Business and IT road maps.</h1>
                               </div>
-                             
                          </div>
                     </div>
                </section>
@@ -79,18 +75,6 @@ export default function Home() {
                                              </div>
                                         </Link>
                                    </div>
-
-                                   {/* <div className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-                                        <div className="icon-box" data-aos-delay="400">
-                                             <div className="icon">
-                                                  <i className="bx bx-world"></i>
-                                             </div>
-                                             <h4 className="title">
-                                                  <a href="">Nemo Enim</a>
-                                             </h4>
-                                             <p className="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
-                                        </div>
-                                   </div> */}
                               </div>
                          </div>
                     </section>
@@ -102,14 +86,9 @@ export default function Home() {
                                    <h3>
                                         Find Out More <span>About Us</span>
                                    </h3>
-                                   {/* <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p> */}
                               </div>
 
                               <div className='row'>
-                                   {/* <div className='col-lg-6' data-aos-delay='100'>
-                                        <img src="assets/img/about.jpg" className="img-fluid" alt="" />
-                                        <iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.260434455598!2d78.36312181467156!3d17.44724468804272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93f3322b921d%3A0x23c617be7a144183!2sIndiQube%20Pearl!5e0!3m2!1sen!2sin!4v1661425597768!5m2!1sen!2sin' width='600' height='600' allowFullScreen='' loading='lazy' referrerPolicy='no-referrer-when-downgrade'></iframe>
-                                   </div> */}
                                    <div className='col-lg-1'></div>
                                    <div className='col-lg-10 pt-4 pt-lg-0 content d-flex flex-column justify-content-center mt-5' data-aos-delay='100'>
                                         <h3 className='text-center mb-4'>RISPOSTA SOFTWARE INDIA PVT LTD</h3>
@@ -138,99 +117,34 @@ export default function Home() {
                               </div>
                          </div>
                     </section>
+                    <div className='section-title mt-4'>
+                         <h2>
+                              <span>Partners</span>
+                         </h2>
+                    </div>
 
-                    {/* <section id='counts' className='counts'>
-                         <div className='container'>
+                    <section id='clients' className='clients section-bg'>
+                         <div className='container' data-aos='zoom-in'>
                               <div className='row'>
-                                   <div className='col-lg-3 col-md-6'>
-                                        <div className='count-box'>
-                                             <i className='bi bi-emoji-smile'></i>
-                                             <span data-purecounter-start='0' data-purecounter-end='232' data-purecounter-duration='1' className='purecounter'></span>
-                                             <p>Happy Clients</p>
-                                        </div>
+                                   <div className='col-lg-1 col-md-12 col-12 d-flex align-items-center justify-content-center'></div>
+
+                                   <div className='col-lg-3 col-md-12 col-12 d-flex align-items-center justify-content-center'></div>
+
+                                   <div className='col-lg-4 col-md-12 col-12 d-flex align-items-center justify-content-center'>
+                                        <Link  href={'https://www.kinaxis.com/en/partners/risposta'}passHref>
+                                             <a target="_blank">
+                                                  <img src='assets/img/clients/kinaxis-logo.png' className='' alt='' width={'500px'} />
+                                             </a>
+                                        </Link>
                                    </div>
 
-                                   <div className='col-lg-3 col-md-6 mt-5 mt-md-0'>
-                                        <div className='count-box'>
-                                             <i className='bi bi-journal-richtext'></i>
-                                             <span data-purecounter-start='0' data-purecounter-end='521' data-purecounter-duration='1' className='purecounter'></span>
-                                             <p>Projects</p>
-                                        </div>
-                                   </div>
+                                   <div className='col-lg-3 col-md-12 col-12 d-flex align-items-center justify-content-center'></div>
 
-                                   <div className='col-lg-3 col-md-6 mt-5 mt-lg-0'>
-                                        <div className='count-box'>
-                                             <i className='bi bi-headset'></i>
-                                             <span data-purecounter-start='0' data-purecounter-end='1463' data-purecounter-duration='1' className='purecounter'></span>
-                                             <p>Hours Of Support</p>
-                                        </div>
-                                   </div>
-
-                                   <div className='col-lg-3 col-md-6 mt-5 mt-lg-0'>
-                                        <div className='count-box'>
-                                             <i className='bi bi-people'></i>
-                                             <span data-purecounter-start='0' data-purecounter-end='15' data-purecounter-duration='1' className='purecounter'></span>
-                                             <p>Hard Workers</p>
-                                        </div>
-                                   </div>
+                                   <div className='col-lg-1 col-md-12 col-12 d-flex align-items-center justify-content-center'></div>
                               </div>
                          </div>
                     </section>
 
-                    <section id='clients' className='clients section-bg'>
-                         <div className='container'>
-                              <div className='row'>
-                                   <div className='col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center'>
-                                        <img src='assets/img/clients/client-1.png' className='img-fluid' alt='' />
-                                   </div>
-
-                                   <div className='col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center'>
-                                        <img src='assets/img/clients/client-2.png' className='img-fluid' alt='' />
-                                   </div>
-
-                                   <div className='col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center'>
-                                        <img src='assets/img/clients/client-3.png' className='img-fluid' alt='' />
-                                   </div>
-
-                                   <div className='col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center'>
-                                        <img src='assets/img/clients/client-4.png' className='img-fluid' alt='' />
-                                   </div>
-
-                                   <div className='col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center'>
-                                        <img src='assets/img/clients/client-5.png' className='img-fluid' alt='' />
-                                   </div>
-
-                                   <div className='col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center'>
-                                        <img src='assets/img/clients/client-6.png' className='img-fluid' alt='' />
-                                   </div>
-                              </div>
-                         </div>
-                    </section> */}
-
-                    {/* <section id='about' className='services' data-aos='fade-up' data-aos-delay='400' data-aos-duration='1000'>
-                         <div className='container'>
-                              <div className='section-title'>
-                                   <h2>Products</h2>
-                                   <h3>
-                                        Check our <span>Products</span>
-                                   </h3>
-                              </div>
-
-                              <div className='row'>
-                                   <div className='col-lg-3 col-md-6 d-flex align-items-stretch' data-aos-delay='100'></div>
-                                   <div className='col-lg-6 col-md-6 d-flex align-items-stretch' data-aos-delay='100'>
-                                        <div className='icon-box'>
-                                             <img style={{ width: '300px' }} src='assets/img/data-integretor.png' className='boxshadow img-responsive img-centered img60 rounded-circle' alt='' />
-                                             <h4>
-                                                  <a href=''>Data Integrator</a>
-                                             </h4>
-                                             <p>Adyant Data Integration Platform (ADIP),is a one stop solution for all integration needs . ADIP has got all the capabilities to connect any two systems with multiple connect or options.It has the ability to read multiple data format sata time and establishes the data connections between the files along with cleansing recommendations.</p>
-                                        </div>
-                                   </div>
-                                   <div className='col-lg-3 col-md-6 d-flex align-items-stretch' data-aos-delay='100'></div>
-                              </div>
-                         </div>
-                    </section> */}
                     <section id='about' className='services' data-aos='fade-up' data-aos-delay='400' data-aos-duration='1000'>
                          <div className='container'>
                               <div className='section-title'>

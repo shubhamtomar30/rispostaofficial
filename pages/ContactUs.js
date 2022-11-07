@@ -1,8 +1,12 @@
+import Head from 'next/head';
 import React from 'react';
 
 const Contact_Us = () => {
      return (
           <div>
+               <Head>
+                    <title>Contact Us</title>
+               </Head>
                <div className='container-fluid contacthead mt-3 mb-3' data-aos='fade-up' data-aos-delay='100' data-aos-duration='500'>
                     <div className='overlay'></div>
                     <div className='row h-100'>

@@ -23,15 +23,7 @@ export default function Header() {
                                    </a>
                               </h1>
                               <nav id='navbar' className='navbar desknav'>
-                                   {/* <header id='header' className='d-flex align-items-center'>
-                         <div className='container-fluid d-flex align-items-center justify-content-between'>
-                              <h1 className='logo'>
-                                   <a href={'/'}>
-                                        <img src='./assets/img/risposta-logo.png' alt='' />
-                                   </a>
-                              </h1>
-
-                              <nav id='navbar' className='navbar' style={{ marginRight: '100px' }}> */}
+                                  
                                    <ul>
                                         <li>
                                              <Link className='nav-link' href={'/'}>

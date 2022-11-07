@@ -18,14 +18,15 @@ const nextConfig = {
 
                //   '/pages/about': { page: 'pages/about' },
 
-               '/AboutUs': { page: '/AboutUs', query: { title: '/AboutUs' } },
+               '/AboutUs': { page: '/AboutUs' },
                // '/AboutUs/index': { page: '/AboutUs', query: { title: '/AboutUs' } },
-               '/Offerings': { page: '/Offerings', query: { title: '/Offerings' } },
-               '/Team': { page: '/Team', query: { title: '/Team' } },
-               '/Careers': { page: '/Careers', query: { title: '/Careers' } },
-               '/OurCulture': { page: '/OurCulture', query: { title: '/OurCulture' } },
-               '/NewsAndEvents': { page: '/NewsAndEvents', query: { title: '/NewsAndEvents' } },
-               '/ContactUs': { page: '/ContactUs', query: { title: '/Contacts' } },
+               '/Offerings': { page: '/Offerings' },
+               '/Team': { page: '/Team' },
+               '/Careers': { page: '/Careers' },
+               '/OurCulture': { page: '/OurCulture' },
+               '/NewsAndEvents': { page: '/NewsAndEvents' },
+               '/ContactUs': { page: '/ContactUs' },
+               
           };
      },
 };

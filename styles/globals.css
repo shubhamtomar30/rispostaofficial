@@ -1,15 +1,4 @@
 
-  /* [data-theme="dark"] {
-    --primary-color: rgb(107, 106, 134);
-    --secondary-color: #818cab;
-    --font-color: #e1e1ff;
-    --bg-color: #4d5055;
-    --heading-color: #63656d;
-    --color: red; 
-  } */
-
-
-
 html,
 body {
   
@@ -17,7 +6,11 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
     color: var(--color) !important;
     background-color: white !important;
+   
+    
 }
+
+
 
 a {
   color: inherit;
@@ -39,8 +32,39 @@ a {
   }
 }
 @media (max-width: 991px) {
+  body .container-fluid{
+  --bs-gutter-x:0px !important;
+}
   
-
-
+header {
+    color: white;
+    /* background: black; */
+    /* max-width: 200px; */
+    width: device-width !important;
+zoom: 1.1 !important;
+min-zoom: 0.4 !important;
+max-zoom: 4 !important;
+user-zoom: fixed !important
+  }
+footer {
+    color: white;
+    /* background: black; */
+    /* max-width: 200px; */
+    width: device-width !important;
+zoom: 1.1 !important;
+min-zoom: 0.4 !important;
+max-zoom: 2 !important;
+user-zoom: fixed !important
+  }
+ icon-box{
+    color: white;
+    /* background: black; */
+    /* max-width: 200px; */
+    width: device-width !important;
+zoom: 1.4 !important;
+min-zoom: 0.4 !important;
+max-zoom: 2 !important;
+user-zoom: fixed !important
+  }
 
 }

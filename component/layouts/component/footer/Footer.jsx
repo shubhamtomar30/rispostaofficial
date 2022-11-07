@@ -12,7 +12,7 @@ export default function Footer() {
                                        <h4>Subscribe</h4>
                                        <p>Let Us Know Your Email To Keep You Updated.....</p>
                                        <form action='' method='post'>
-                                            <input type='email' name='email' placeholder='For Example :-  Shubh@gmail.com' />
+                                            <input type='email' name='email' placeholder='For Example :-  info@rispostacorp.com' />
                                             <input type='submit' value='Subscribe' />
                                        </form>
                                   </div>
@@ -33,7 +33,6 @@ export default function Footer() {
                                             <br />
                                             India <br />
                                             <br />
-                                            {/* <strong>Phone:</strong> <span className='text-decoration-line-through'>+1 5589 55488 55</span> */}
                                             <br />
                                             <strong>Email:</strong> <a href='mailto:info@rispostacorp.com'>info@rispostacorp.com</a>
                                             <br />
@@ -56,14 +55,17 @@ export default function Footer() {
                                                  </Link>
                                             </li>
                                             <li>
-                                                 <i className='bx bx-chevron-right'></i> <a href='#'>Offerings</a>
+                                                 <i className='bx bx-chevron-right'></i>
+                                                 <Link href={'/Offerings'}>
+                                                      <a>Offerings</a>
+                                                 </Link>
                                             </li>
                                             <li>
-                                                 <i className='bx bx-chevron-right'></i> <a href='#'>Contact us</a>
+                                                 <i className='bx bx-chevron-right'></i>
+                                                 <Link href={'/ContactUs'}>
+                                                      <a>Contact us</a>
+                                                 </Link>
                                             </li>
-                                            {/* <li>
-                                                 <i className='bx bx-chevron-right'></i> <a href='#'>Privacy policy</a>
-                                            </li> */}
                                        </ul>
                                   </div>
 
@@ -95,13 +97,6 @@ export default function Footer() {
                                        <h4>Our Social Networks</h4>
                                        <p>Here You can Get More Information About Us</p>
                                        <div className='social-links mt-3'>
-                                            <a href='#' className='twitter'>
-                                                 <i className='bx bxl-twitter'></i>
-                                            </a>
-
-                                            <a href='#' className='instagram'>
-                                                 <i className='bx bxl-instagram'></i>
-                                            </a>
                                             <Link href={'https://www.linkedin.com/company/rispostacorp/mycompany/'} passHref>
                                                  <a target='_blank' className='linkedin'>
                                                       <i className='bx bxl-linkedin'></i>

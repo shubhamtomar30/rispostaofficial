@@ -1,9 +1,13 @@
+import Head from "next/head";
 import React from "react";
 
 
 const Offerings = () => {
      return (
           <div>
+               <Head>
+                    <title>Offerings</title>
+               </Head>
                <div className='container-fluid offeringshead mb-3 mt-3' data-aos='fade-up' data-aos-delay='200' data-aos-duration='500'>
                     <div className='overlay'></div>
                     <div className='row h-100'>

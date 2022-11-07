@@ -1,8 +1,12 @@
+import Head from 'next/head';
 import React from 'react';
 
 const NewsAndEvents = () => {
      return (
           <div>
+               <Head>
+                    <title>Events</title>
+               </Head>
                <div className='container-fluid newsandeventshead mt-3 mb-3' data-aos='fade-up' data-aos-delay='100' data-aos-duration='500'>
                     <div className='overlay'></div>
                     <div className='row h-100'>
@@ -68,96 +72,7 @@ const NewsAndEvents = () => {
                                         </div>
                                    </div>
                               </div>
-                              {/* <div className='col-lg-6 p-5'>
-                                   <div className='card  mb-3 boxshadow nae'>
-                                        <div className='row g-0'>
-                                             <div className='col-lg-4'>
-                                                  <img src='assets/img/team/Sai2.jpeg' className='img-fluid rounded-start' alt='...' />
-                                             </div>
-                                             <div className='col-lg-8'>
-                                                  <div className='card-body'>
-                                                       <h5 className='card-title'>Vice President of Operations</h5>
-                                                       <p className='card-text'>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                                       <p className='card-text'>
-                                                            <small className='text-muted'>Last updated 3 mins ago</small>
-                                                       </p>
-                                                  </div>
-                                             </div>
-                                        </div>
-                                   </div>
-                              </div>
-                              <div className='col-lg-6 p-5'>
-                                   <div className='card  mb-3 boxshadow nae'>
-                                        <div className='row g-0'>
-                                             <div className='col-lg-4'>
-                                                  <img src='assets/img/team/Sai2.jpeg' className='img-fluid rounded-start' alt='...' />
-                                             </div>
-                                             <div className='col-lg-8'>
-                                                  <div className='card-body'>
-                                                       <h5 className='card-title'>Vice President of Operations</h5>
-                                                       <p className='card-text'>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                                       <p className='card-text'>
-                                                            <small className='text-muted'>Last updated 3 mins ago</small>
-                                                       </p>
-                                                  </div>
-                                             </div>
-                                        </div>
-                                   </div>
-                              </div>
-                              <div className='col-lg-6 p-5'>
-                                   <div className='card  mb-3 boxshadow nae'>
-                                        <div className='row g-0'>
-                                             <div className='col-lg-4'>
-                                                  <img src='assets/img/team/Sai2.jpeg' className='img-fluid rounded-start' alt='...' />
-                                             </div>
-                                             <div className='col-lg-8'>
-                                                  <div className='card-body'>
-                                                       <h5 className='card-title'>Vice President of Operations</h5>
-                                                       <p className='card-text'>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                                       <p className='card-text'>
-                                                            <small className='text-muted'>Last updated 3 mins ago</small>
-                                                       </p>
-                                                  </div>
-                                             </div>
-                                        </div>
-                                   </div>
-                              </div>
-                              <div className='col-lg-6 p-5'>
-                                   <div className='card  mb-3 boxshadow nae'>
-                                        <div className='row g-0'>
-                                             <div className='col-lg-4'>
-                                                  <img src='assets/img/team/Sai2.jpeg' className='img-fluid rounded-start' alt='...' />
-                                             </div>
-                                             <div className='col-lg-8'>
-                                                  <div className='card-body'>
-                                                       <h5 className='card-title'>Vice President of Operations</h5>
-                                                       <p className='card-text'>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                                       <p className='card-text'>
-                                                            <small className='text-muted'>Last updated 3 mins ago</small>
-                                                       </p>
-                                                  </div>
-                                             </div>
-                                        </div>
-                                   </div>
-                              </div>
-                              <div className='col-lg-6 p-5'>
-                                   <div className='card  mb-3 boxshadow nae'>
-                                        <div className='row g-0'>
-                                             <div className='col-lg-4'>
-                                                  <img src='assets/img/team/Sai2.jpeg' className='img-fluid rounded-start' alt='...' />
-                                             </div>
-                                             <div className='col-lg-8'>
-                                                  <div className='card-body'>
-                                                       <h5 className='card-title'>Vice President of Operations</h5>
-                                                       <p className='card-text'>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                                       <p className='card-text'>
-                                                            <small className='text-muted'>Last updated 3 mins ago</small>
-                                                       </p>
-                                                  </div>
-                                             </div>
-                                        </div>
-                                   </div>
-                              </div> */}
+                              
                          </div>
                     </div>
                </div>

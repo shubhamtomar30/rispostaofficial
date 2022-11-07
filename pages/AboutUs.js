@@ -1,8 +1,13 @@
+import Head from 'next/head';
 import React from 'react';
 
 const Aboutus = () => {
      return (
+
           <div>
+               <Head>
+                    <title>AboutUs</title>
+               </Head>
                <div className='container-fluid abouthead mb-3 mt-3' data-aos='fade-up' data-aos-delay='100' data-aos-duration='500'>
                     <div className='overlay'></div>
                     <div className='row h-100'>

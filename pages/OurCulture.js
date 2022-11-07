@@ -1,8 +1,12 @@
+import Head from 'next/head';
 import React from 'react'
 
 const OurCulture = () => {
   return (
        <div>
+          <Head>
+               <title>OurCulture</title>
+          </Head>
             <div className='container-fluid casestudieshead mt-3 mb-3' style={{ height: '75vh' }} data-aos='fade-up' data-aos-delay='100' data-aos-duration='500'>
                  <div className='overlay'></div>
                  <div className='row h-100'>

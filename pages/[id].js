@@ -87,7 +87,7 @@ const name = () => {
                                              <h3 className='ff'>Software Development Engineer</h3>
                                              <h3 className='ff text-uppercase'>(Remote, US Based) 2 - 5 years of experience</h3>
 
-                                             <p className='ff mt-3 text-uppercase'>REMOTE (US) /Frontend Engineer/FULL TIME</p>
+                                             <p className='ff mt-3 text-uppercase'>Frontend Engineer/FULL TIME</p>
                                         </div>
                                         <div className='col-lg-4'>
                                              <a href='mailto:careers@rispostacorp.com?subject=For Software Development Engineer!&body=' className='btn btn-info text-uppercase'>
@@ -445,7 +445,7 @@ const name = () => {
                                         <div className='col-lg-8'>
                                              <h3 className='ff'>Sr. Delivery Manager</h3>
                                              <h3 className='ff text-uppercase'>10-16 years</h3>
-                                             <h3 className='ff text-uppercase'>Capetown , SouthAfrica && Hyderabad , India</h3>
+                                             <h3 className='ff text-uppercase'>SouthAfrica && India</h3>
                                         </div>
                                         <div className='col-lg-4'>
                                              <a href='mailto:careers@rispostacorp.com?subject=For Sr. Delivery Manager!&body=' className='btn btn-info text-uppercase'>
